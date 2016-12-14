@@ -102,7 +102,10 @@ app.get('*', (req, res) => {
     console.error(err)
   })
 })
-
+/**
+ *
+ * @type {*|number}
+ */
 const port = process.env.PORT || 8080
 app.listen(port, () => {
   console.log(`server started at localhost:${port}`)
